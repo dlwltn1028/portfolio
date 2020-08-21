@@ -1,0 +1,260 @@
+@charset "utf-8";
+@font-face {
+    
+    font-family : 'Hi Melody';
+    font-style : normal;
+    font-weight : 400;
+    src : local('Hi Melody Regular'), local('HiMelody-Regular'), url(https://fonts.gstatic.com/s/himelody/v8/46ktlbP8Vnz0pJcqCTb0eGVA.ttf) format('truetype');
+    
+}
+
+* {
+margin : 0;
+padding : 0;
+font-family : Hi Melody;
+}
+a {
+text-decoration : none;
+}
+li {
+list-style : none;
+}
+html {
+height : 100%;
+}
+body {
+margin : 0 auto;
+width : 100%;
+}
+.menu {
+text-align : center;
+height : 50px;
+top : 0;
+}
+.outer-menu-item {
+float : right;
+position : relative;
+}
+.menu-title {
+display : block;
+height : 50px;
+text-align : center;
+padding : 5px 30px;
+margin-top : 10px;
+}
+.menu-title > a {
+color : rgb(209, 203, 203);
+font-family : 나눔손글씨 할아버지의나눔, 'Baloo Tamma 2', cursive;
+}
+.menu-title > a:hover {
+color : black;
+}
+.content {
+position : absolute;
+width : 100%;
+height : 100%;
+padding : 40px 100px;
+box-sizing : border-box;
+}
+.content-left {
+background-color : rgb(121, 74, 121);
+width : 100%;
+height : 100vh;
+float : left;
+color : rgb(219, 214, 214);
+position : relative;
+}
+.content-left .left {
+position : relative;
+display : inline-block;
+text-align : center;
+background-color : rgba(255, 255, 255, 0.3);
+z-index:1;
+height : 65%;
+width : 35%;
+margin-top : 9%;
+margin-left : 6%;
+}
+.content-left .left {
+font-size : 20px;
+padding : 100px 30px;
+box-sizing : border-box;
+}
+.content-left .left h1 {
+margin-top : 20px;
+margin-bottom : 30px;
+font-size : 50px;
+}
+.content-left .left h1 strong {
+font-size : 60px;
+}
+.content-left .left p {
+font-size : 25px;
+}
+.content-left .left .page a {
+position : absolute;
+bottom : 50px;
+left : 50px;
+border : rgb(194, 89, 147) solid 3px;
+color : #fff;
+padding : 3px;
+font-size : 25px;
+}
+.content-left .right > img {
+position : absolute;
+top : 15%;
+right : 10%;
+width : 40%;
+height : 70%;
+}
+.content-right {
+background-color : rgb(204, 132, 141);
+width : 100%;
+height : 100vh;
+float : left;
+color : rgb(219, 214, 214);
+font-family : 나눔손글씨 할아버지의나눔, 'Baloo Tamma 2', cursive;
+position : relative;
+}
+.content-right .left {
+position : relative;
+display : inline-block;
+text-align : center;
+background-color : rgba(255, 255, 255, 0.3);
+height : 65%;
+width : 35%;
+margin-top : 9%;
+margin-left : 6%;
+}
+.content-right .left {
+font-size : 20px;
+padding : 100px 30px;
+box-sizing : border-box;
+}
+.content-right .left h1 {
+margin-top : 20px;
+margin-bottom : 30px;
+font-size : 50px;
+}
+.content-right .left h1 strong {
+font-size : 60px;
+}
+.content-right .left p {
+font-size : 25px;
+}
+.content-right .left .page a {
+position : absolute;
+bottom : 50px;
+left : 50px;
+border : rgb(241, 196, 221) solid 3px;
+color : #fff;
+padding : 3px;
+font-size : 25px;
+}
+.content-right .right > img {
+position : absolute;
+top : 15%;
+right : 10%;
+width : 40%;
+height : 70%;
+}
+.content3 {
+background-color : rgb(187, 135, 76);
+width : 100%;
+height : 100vh;
+float : left;
+color : rgb(219, 214, 214);
+position : relative;
+}
+.content3 .left {
+position : relative;
+display : inline-block;
+text-align : center;
+background-color : rgba(255, 255, 255, 0.3);
+height : 65%;
+width : 35%;
+margin-top : 9%;
+margin-left : 6%;
+}
+.content3 .left {
+font-size : 20px;
+padding : 100px 30px;
+box-sizing : border-box;
+}
+.content3 .left h1 {
+margin-top : 20px;
+margin-bottom : 30px;
+font-size : 50px;
+}
+.content3 .left h1 strong {
+font-size : 60px;
+}
+.content3 .left p {
+font-size : 25px;
+}
+.content3 .left .page a {
+position : absolute;
+bottom : 50px;
+left : 50px;
+border : rgb(238, 168, 89) solid 3px;
+color : #fff;
+padding : 3px;
+font-size : 25px;
+}
+.content3 .right > img {
+position : absolute;
+top : 15%;
+right : 6%;
+width : 50%;
+height : 70%;
+}
+.content4 {
+background-color : rgb(75, 128, 84);
+width : 100%;
+height : 100vh;
+float : left;
+color : rgb(219, 214, 214);
+position : relative;
+}
+.content4 .left {
+position : relative;
+display : inline-block;
+text-align : center;
+background-color : rgba(255, 255, 255, 0.3);
+height : 65%;
+width : 35%;
+margin-top : 9%;
+margin-left : 6%;
+}
+.content4 .left {
+font-size : 20px;
+padding : 100px 30px;
+box-sizing : border-box;
+}
+.content4 .left h1 {
+margin-top : 20px;
+margin-bottom : 30px;
+font-size : 50px;
+}
+.content4 .left h1 strong {
+font-size : 60px;
+}
+.content4 .left p {
+font-size : 25px;
+}
+.content4 .left .page a {
+position : absolute;
+bottom : 50px;
+left : 50px;
+border : rgb(136, 238, 89) solid 3px;
+color : #fff;
+padding : 3px;
+font-size : 25px;
+}
+.content4 .right > img {
+position : absolute;
+top : 15%;
+right : 10%;
+width : 40%;
+height : 70%;
+}
