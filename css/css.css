@@ -68,16 +68,16 @@ position : relative;
 position : relative;
 display : inline-block;
 text-align : center;
-height : 90%;
-width : 40%;
 background-color : rgba(255, 255, 255, 0.3);
 z-index:1;
-margin-top : 3%;
-margin-left : 3%;
+height : 65%;
+width : 35%;
+margin-top : 9%;
+margin-left : 6%;
 }
 .content-left .left {
 font-size : 20px;
-padding : 50px 15px;
+padding : 100px 30px;
 box-sizing : border-box;
 }
 .content-left .left h1 {
@@ -120,15 +120,15 @@ position : relative;
 position : relative;
 display : inline-block;
 text-align : center;
-height : 90%;
-width : 40%;
 background-color : rgba(255, 255, 255, 0.3);
-margin-top : 3%;
-margin-left : 3%;
+height : 65%;
+width : 35%;
+margin-top : 9%;
+margin-left : 6%;
 }
 .content-right .left {
 font-size : 20px;
-padding : 50px 15px;
+padding : 100px 30px;
 box-sizing : border-box;
 }
 .content-right .left h1 {
@@ -170,15 +170,15 @@ position : relative;
 position : relative;
 display : inline-block;
 text-align : center;
-height : 90%;
-width : 40%;
 background-color : rgba(255, 255, 255, 0.3);
-margin-top : 3%;
-margin-left : 3%;
+height : 65%;
+width : 35%;
+margin-top : 9%;
+margin-left : 6%;
 }
 .content3 .left {
 font-size : 20px;
-padding : 50px 15px;
+padding : 100px 30px;
 box-sizing : border-box;
 }
 .content3 .left h1 {
@@ -220,15 +220,15 @@ position : relative;
 position : relative;
 display : inline-block;
 text-align : center;
-height : 90%;
-width : 40%;
 background-color : rgba(255, 255, 255, 0.3);
-margin-top : 3%;
-margin-left : 3%;
+height : 65%;
+width : 35%;
+margin-top : 9%;
+margin-left : 6%;
 }
 .content4 .left {
 font-size : 20px;
-padding : 50px 15px;
+padding : 100px 30px;
 box-sizing : border-box;
 }
 .content4 .left h1 {
