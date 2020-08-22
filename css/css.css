@@ -65,6 +65,7 @@ height : 100vh;
 float : left;
 color : rgb(219, 214, 214);
 position : relative;
+overflow : hidden;
 }
 .content-left .left {
 position : relative;
@@ -402,10 +403,46 @@ box-sizing : border-box;
         height : 70%;
         box-sizing : border-box;
         }
+
+@media (min-width : 768px) and (max-width : 1200px){
+
+    .content-left { position : relative;}
+    .content-left .left{position : absolute;  margin : auto; margin-left : 30px; top:0; bottom : 0; }
+    .content-left .right>img{position : absolute;  margin : auto; margin-left : -10px; top:0; bottom : 0;}
+    .content-left .left ,.content3 .left, .content4 .left, .content5 .left, .content6 .left{padding : 50px 30px}
+    .content-left .left h1 strong , .content-left .left h1{font-size : 25px;}
+    .content-left .left p , .content-left .left .page a{font-size:20px;}
+    .content-right { position : relative;}
+    .content-right .left{position : absolute;  margin : auto; margin-left : 30px; top:0; bottom : 0;padding : 40px 20px;height : 75%;
+        width : 40%;  }
+    .content-right .right>img{position : absolute;  margin : auto; margin-left : -10px; top:0; bottom : 0;}
+    .content-right .left h1 strong , .content-right .left h1{font-size : 22px;}
+    .content-right .left p , .content-right .left .page a{font-size:20px;}
+    .content3 , .content4, .content5, .content6 { position : relative;}
+    .content3 .left ,.content4 .left, .content5 .left ,.content6 .left{position : absolute;  margin : auto; margin-left : 30px; top:0; bottom : 0; }
+    .content3 .right>img{position : absolute;  margin : auto; margin-left : -50px; top:0; bottom : 0; }
+    .content3 .left h1 strong , .content3 .left h1{font-size : 25px;}
+    .content3 .left p , .content3 .left .page a{font-size:20px;}
+    .content4 .right>img{position : absolute;  margin : auto; margin-left : -10px; top:0; bottom : 0;}
+    .content4 .left h1 strong , .content4 .left h1{font-size : 22px;}
+    .content4 .left p , .content5 .left .page a{font-size:20px;}
+    .content5 .right>img{position : absolute;  margin : auto; margin-left : -10px; top:0; bottom : 0;}
+    .content5 .left h1 strong , .content5 .left h1{font-size : 22px;}
+    .content5 .left p , .content5 .left .page a{font-size:20px;}
+    .content6 .right>img{position : absolute;  margin : auto; margin-left : -10px; top:0; bottom : 0;}
+    .content6 .left h1 strong , .content6 .left h1{font-size : 22px;}
+    .content6 .left p , .content6 .left .page a{font-size:20px;}
+ }
 @media(max-width : 768px){
     .content-left, .content-right ,.content3,.content4 ,.content5 ,.content6{ display : block;height : 150vh; margin-bottom : 50px; overflow : hidden}
     .content-left .left ,.content-right .left, .content3 .left, .content4 .left, .content5 .left, .content6 .left{width : 100%; height : 45%; margin-left : 0;}
     .content-left .right , .content-right .right, .content3 .right, .content4 .right, .content5 .right, .content6 .right {position : relative;margin-top : -50px;   width : 100%;  }
     .content-left .right >img , .content-right .right >img, .content3 .right >img, .content4 .right >img, .content5 .right >img, .content6 .right >img{display : block; margin-left:0; width : 100%; }
     
+}
+@media ( max-width : 600px ) {
+    .content{padding : 0;}
+
+
+
 }
