@@ -442,6 +442,10 @@ box-sizing : border-box;
 }
 @media ( max-width : 600px ) {
     .content{padding : 0;}
+    .content-left .left h1 strong , .content-left .left h1,  .content-right .left h1 strong , .content-right .left h1
+    ,.content3 .left h1 strong , .content3 .left h1, .content4 .left h1 strong , .content4 .left h1
+    ,.content5 .left h1 strong , .content5 .left h1, .content6 .left h1 strong , .content6 .left h1 {font-size : 40px;}
+    .content-left .left, .content-right .left ,.content3 .left, .content4 .left, .content5 .left, .content6 .left{padding : 40px 20px}
 
 
 
