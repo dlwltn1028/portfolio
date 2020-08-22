@@ -49,6 +49,7 @@ font-family : 나눔손글씨 할아버지의나눔, 'Baloo Tamma 2', cursive;
 .menu-title > a:hover {
 color : black;
 }
+
 .content {
 position : absolute;
 width : 100%;
@@ -56,6 +57,7 @@ height : 100%;
 padding : 40px 100px;
 box-sizing : border-box;
 }
+
 .content-left {
 background-color : rgb(121, 74, 121);
 width : 100%;
@@ -66,7 +68,7 @@ position : relative;
 }
 .content-left .left {
 position : relative;
-display : inline-block;
+display: block;
 text-align : center;
 background-color : rgba(255, 255, 255, 0.3);
 z-index:1;
@@ -77,11 +79,12 @@ margin-left : 6%;
 }
 .content-left .left {
 font-size : 20px;
-padding : 100px 30px;
+padding : 70px 30px;
 box-sizing : border-box;
 }
+
 .content-left .left h1 {
-margin-top : 20px;
+margin-top : 10px;
 margin-bottom : 30px;
 font-size : 50px;
 }
@@ -91,21 +94,32 @@ font-size : 60px;
 .content-left .left p {
 font-size : 25px;
 }
+.content-left .left .page{
+    margin-top:30px;
+    text-align: center;
+}
+
 .content-left .left .page a {
-position : absolute;
-bottom : 50px;
-left : 50px;
+
 border : rgb(194, 89, 147) solid 3px;
 color : #fff;
 padding : 3px;
 font-size : 25px;
 }
+
+
+
+.content-left .right {
+position: absolute;
+   top: 0px; right :0px;
+  width : 45%; height: 100%;
+}
 .content-left .right > img {
-position : absolute;
-top : 15%;
-right : 10%;
-width : 40%;
+margin-top : 15%; margin-left : -15px;
+display: block;
+width : 90%;
 height : 70%;
+box-sizing : border-box;
 }
 .content-right {
 background-color : rgb(204, 132, 141);
@@ -128,11 +142,11 @@ margin-left : 6%;
 }
 .content-right .left {
 font-size : 20px;
-padding : 100px 30px;
+padding : 70px 30px;
 box-sizing : border-box;
 }
 .content-right .left h1 {
-margin-top : 20px;
+margin-top : 10px;
 margin-bottom : 30px;
 font-size : 50px;
 }
@@ -142,24 +156,30 @@ font-size : 60px;
 .content-right .left p {
 font-size : 25px;
 }
+.content-right .left .page{
+    margin-top:30px;
+    text-align: center;
+}
 .content-right .left .page a {
-position : absolute;
-bottom : 50px;
-left : 50px;
 border : rgb(241, 196, 221) solid 3px;
 color : #fff;
 padding : 3px;
 font-size : 25px;
 }
+.content-right .right {
+    position: absolute;
+       top: 0px; right :0px;
+      width : 45%; height: 100%;
+    }
 .content-right .right > img {
-position : absolute;
-top : 15%;
-right : 10%;
-width : 40%;
-height : 70%;
+    margin-top : 15%; margin-left : -15px;
+    display: block;
+    width : 90%;
+    height : 70%;
+    box-sizing : border-box;
 }
 .content3 {
-background-color : rgb(187, 135, 76);
+background-color : rgb(75, 122, 128);
 width : 100%;
 height : 100vh;
 float : left;
@@ -178,11 +198,11 @@ margin-left : 6%;
 }
 .content3 .left {
 font-size : 20px;
-padding : 100px 30px;
+padding : 70px 30px;
 box-sizing : border-box;
 }
 .content3 .left h1 {
-margin-top : 20px;
+margin-top : 10px;
 margin-bottom : 30px;
 font-size : 50px;
 }
@@ -192,21 +212,28 @@ font-size : 60px;
 .content3 .left p {
 font-size : 25px;
 }
+
+.content3 .left .page{
+    margin-top:30px;
+    text-align: center;
+}
 .content3 .left .page a {
-position : absolute;
-bottom : 50px;
-left : 50px;
-border : rgb(238, 168, 89) solid 3px;
+border : rgb(89, 208, 238) solid 3px;
 color : #fff;
 padding : 3px;
 font-size : 25px;
 }
+.content3 .right {
+    position: absolute;
+    top: 0px; right :0px;
+    width : 45%; height: 100%;
+    }
 .content3 .right > img {
-position : absolute;
-top : 15%;
-right : 6%;
-width : 50%;
+margin-top : 15%; margin-left : -90px;
+display: block;
+width : 120%;
 height : 70%;
+box-sizing : border-box;
 }
 .content4 {
 background-color : rgb(75, 128, 84);
@@ -228,11 +255,11 @@ margin-left : 6%;
 }
 .content4 .left {
 font-size : 20px;
-padding : 100px 30px;
+padding : 70px 30px;
 box-sizing : border-box;
 }
 .content4 .left h1 {
-margin-top : 20px;
+margin-top : 10px;
 margin-bottom : 30px;
 font-size : 50px;
 }
@@ -242,19 +269,143 @@ font-size : 60px;
 .content4 .left p {
 font-size : 25px;
 }
+.content4 .left .page{
+    margin-top:30px;
+    text-align: center;
+}
 .content4 .left .page a {
-position : absolute;
-bottom : 50px;
-left : 50px;
+
 border : rgb(136, 238, 89) solid 3px;
 color : #fff;
 padding : 3px;
 font-size : 25px;
 }
+.content4 .right {
+    position: absolute;
+    top: 0px; right :0px;
+    width : 45%; height: 100%;
+    }
 .content4 .right > img {
-position : absolute;
-top : 15%;
-right : 10%;
-width : 40%;
+margin-top : 15%; margin-left : -15px;
+display: block;
+width : 90%;
 height : 70%;
+box-sizing : border-box;
+}
+.content5 {
+    background-color : rgb(187, 135, 76);
+    width : 100%;
+    height : 100vh;
+    float : left;
+    color : rgb(219, 214, 214);
+    position : relative;
+    }
+.content5 .left {
+    position : relative;
+    display : inline-block;
+    text-align : center;
+    background-color : rgba(255, 255, 255, 0.3);
+    height : 65%;
+    width : 35%;
+    margin-top : 9%;
+    margin-left : 6%;
+    font-size : 20px;
+    padding : 70px 30px;
+    box-sizing : border-box;
+    }
+.content5 .left h1 {
+    margin-top : 10px;
+    margin-bottom : 30px;
+    font-size : 50px;
+    }
+.content5 .left h1 strong {
+    font-size : 60px;
+    }
+.content5 .left p {
+    font-size : 25px;
+    }
+.content5 .left .page{
+        margin-top:30px;
+        text-align: center;
+    }
+.content5 .left .page a {
+    border : rgb(238, 168, 89) solid 3px;
+    color : #fff;
+    padding : 3px;
+    font-size : 25px;
+    }
+.content5 .right {
+        position: absolute;
+        top: 0px; right :0px;
+        width : 45%; height: 100%;
+        }
+.content5 .right > img {
+    margin-top : 17%; margin-left : -15px;
+    display: block;
+    width : 90%;
+    height : 70%;
+    box-sizing : border-box;
+    }
+
+    .content6 {
+        background-color : rgb(187, 170, 76);
+        width : 100%;
+        height : 100vh;
+        float : left;
+        color : rgb(219, 214, 214);
+        position : relative;
+        }
+    .content6 .left {
+        position : relative;
+        display : inline-block;
+        text-align : center;
+        background-color : rgba(255, 255, 255, 0.3);
+        height : 65%;
+        width : 35%;
+        margin-top : 9%;
+        margin-left : 6%;
+        font-size : 20px;
+        padding : 70px 30px;
+        box-sizing : border-box;
+        }
+    .content6 .left h1 {
+        margin-top : 10px;
+        margin-bottom : 30px;
+        font-size : 50px;
+        }
+    .content6 .left h1 strong {
+        font-size : 60px;
+        }
+    .content6 .left p {
+        font-size : 25px;
+        }
+    .content6 .left .page{
+        margin-top:30px;
+        text-align: center;
+        }
+    .content6 .left .page a {
+        border : rgb(223, 238, 89) solid 3px;
+        color : #fff;
+        padding : 3px;
+        font-size : 25px;
+       
+        }
+    .content6 .right {
+            position: absolute;
+            top: 0px; right :0px;
+            width : 45%; height: 100%;
+            }
+    .content6 .right > img {
+        margin-top : 15%; margin-left : -15px;
+        display: block;
+        width : 90%;
+        height : 70%;
+        box-sizing : border-box;
+        }
+@media(max-width : 768px){
+    .content-left, .content-right ,.content3,.content4 ,.content5 ,.content6{ display : block;height : 150vh; margin-bottom : 50px; overflow : hidden}
+    .content-left .left ,.content-right .left, .content3 .left, .content4 .left, .content5 .left, .content6 .left{width : 100%; height : 45%; margin-left : 0;}
+    .content-left .right , .content-right .right, .content3 .right, .content4 .right, .content5 .right, .content6 .right {position : relative;margin-top : -50px;   width : 100%;  }
+    .content-left .right >img , .content-right .right >img, .content3 .right >img, .content4 .right >img, .content5 .right >img, .content6 .right >img{display : block; margin-left:0; width : 100%; }
+    
 }

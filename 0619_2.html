@@ -67,7 +67,8 @@ background-color: rgba(196, 187, 172, 0.74);}
     border-radius: 70%;
     overflow: hidden;
     margin-top: 70px;
-    margin-left: 44%;
+    display: flex;
+flex : 0 0 220px; margin-left : auto; margin-right : auto;
 }
 .profile{
     width: 100%;
@@ -97,6 +98,10 @@ section {display: table; margin-left: auto; margin-right: auto;}
 .circle .percent {width:130px;height:130px!important;text-align:center}
 .circle .percent p {display:none}
 .row {padding:20px 70px ; display: flex;}
+
+@media (max-width: 768px){
+.row {display : inline;}
+}
 
    
 </style>
