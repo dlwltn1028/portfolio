@@ -6,9 +6,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Hi+Melody:400" rel="stylesheet">
     <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+    
     <title>jisu's page</title>
 </head>
 
@@ -32,6 +33,7 @@
             data-aos-duration="1000" >
                 #01
                 <h1><strong>GUCCI</strong> website</h1>
+                <h1 class="back_h1"><strong>GUCCI</strong> website</h1>
                 <p>Main page를 기존에 있는 구찌 사이트를 카피하여 구현하는 방식으로 제작하였습니다.<br>
                 script를 사용하여 drop down menu, slider를 나타냈습니다.  </p>
                 <div class="page"><a href="http://princessjisu.dothome.co.kr/gucci/fgucci.html" target="_blank">페이지 바로가기</a></div>
@@ -55,12 +57,23 @@
                 <div class="page"><a href="http://princessjisu.dothome.co.kr/drama/drama.html" target="_blank">페이지 바로가기</a></div>
 
             </div>
-            <div class="right" >
-                <img src="img/drama2.png"  alt="드라마"  data-aos="flip-left"
+            <div class="right">
+                <img src="img/drama2.png" alt="travel" data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2500"
-                data-aos-delay="800">
+                data-aos-delay="800" >
 
+                <!--
+                <li class="lightbox"><a href="img/travel01.jpg"><img src="img/travel01.jpg" alt="이미지1"></a>
+                    <a href="img/travel02.jpg" style="display: none"><img src="img/travel02.jpg" alt="이미지1"></a>
+                    <a href="img/travel02.jpg" style="display: none"><img src="img/travel02.jpg" alt="이미지1"></a>
+                    <a href="img/travel02.jpg" style="display: none"><img src="img/travel02.jpg" alt="이미지1"></a>
+                   
+                </li>
+                <a href="img/travel01.jpg"><img src="img/travel01.jpg" alt="이미지"></a>
+                <a href="img/travel02.jpg"><img src="img/travel02.jpg" alt="이미지"></a>
+                <a href="img/travel03.jpg"><img src="img/travel03.jpg" alt="이미지"></a>
+                -->
             </div>
 
         </div>
@@ -70,13 +83,13 @@
             data-aos-duration="1000" >
                 #03
                 <h1>개인 여행 기록 페이지</h1>
-                <p> 개인 블로그용으로 여행 기록 페이지를 만들어보았습니다. 각 여행 별로 페이지를 만들어서 간편하게 볼 수 있도록 만들었습니다.
+                <p> 개인 블로그용으로 여행 기록 페이지를 만들어보았습니다. 기존에 있는 소스를 활용하여 각 여행 별로 다양한 슬라이드 효과를 주었습니다.
                  </p>
                 <div class="page"><a href="http://princessjisu.dothome.co.kr/travel/travel.html" target="_blank">페이지 바로가기</a></div>
 
             </div>
             <div class="right">
-                <img src="img/travel2.png"  alt="여행"  data-aos="flip-left"
+                <img src="img/travel06.jpg" alt="travel" data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2500"
                 data-aos-delay="800" >
@@ -140,6 +153,45 @@
 
             </div>
         </div>
+        <div class="content7">
+            <div class="left" data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000" >
+                #07
+                <h1>웹표준형 페이지</h1>
+                <P>웹표준을 준수하여 작업한 사이트입니다.
+                    jquery를 이용해 탭메뉴, 팝업창 나타내는 효과를 주었으며 제이쿼리 플러그인 slick.js와 라이트박스를 이용해 여러 슬라이드효과를 주었습니다.
+                    </p>
+                <div class="page"><a href="#" target="_blank">페이지 바로가기</a></div>
+
+            </div>
+            <div class="right"  >
+                <img src="img/web.jpg"  alt="웹표준"data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2500"
+                data-aos-delay="800" >
+
+            </div>
+        </div>
+        <div class="content8">
+            <div class="left" data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000" >
+                #08
+                <h1>반응형 웹페이지</h1>
+                <P>미디어 쿼리를 이용해 작업한 반응형 사이트입니다.
+                    마우스오버를 통한 여러 효과, 슬라이드 플러그인을 이용한 반응형 이미지 슬라이드, 동영상 삽입으로 동적인 효과를 주었습니다.</p>
+                <div class="page"><a href="#" target="_blank">페이지 바로가기</a></div>
+
+            </div>
+            <div class="right"  >
+                <img src="img/web2.jpg"  alt="로거"data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2500"
+                data-aos-delay="800" >
+
+            </div>
+        </div>
         
     </div>
         
@@ -148,6 +200,18 @@
     <script>
         AOS.init();
       </script>
+
+<script src="script/lightgallery-all.min.js"></script>
+<script src="script/lightgallery.min.js"></script>
+<script>
+    $(".lightbox").lightGallery({
+           thembnail:true,
+           autoplay:true,
+           pause : 3000,
+           progressBar : true
+       }); 
+       
+</script>
    
 </body>
 </html>
