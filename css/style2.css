@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+
+* {
+margin : 0;
+padding : 0;
+font-family: 'Nanum Pen Script', cursive;
+
+}
+.clearfix::after , .clearfix::before{content: ''; display: block; clear: both}
+a {
+text-decoration : none; color : #000
+}
+li {
+list-style : none;
+}
+html {
+height : 100%;
+}
+body {
+margin : 0 auto;
+width : 100%;
+}
+.menu {
+text-align : center;
+height : 50px;
+top : 0;
+}
+.outer-menu-item {
+float : right;
+position : relative;
+}
+.menu-title {
+display : block;
+height : 50px;
+text-align : center;
+padding : 5px 30px;
+margin-top : 10px;
+}
+.menu-title > a {
+color : rgb(209, 203, 203);
+font-family : 나눔손글씨 할아버지의나눔, 'Baloo Tamma 2', cursive;
+}
+.menu-title > a:hover {
+color : black;
+}
+
+
+.content{position : relative; width : 1200px; margin: 0 auto;}
+
+
+.content .left{width : 70px; height: 70px;  position: absolute; top : -40px; left: 0px;}
+.content .left img{width: 70px; height: 70px;}
+.content .contents{padding-top: 50px;}
+.contents .box{position : relative; width : 50%; height: 600px;  float: left; }
+.contents .box img{width : 450px; height: 350px; display: block; position: absolute;top : 50%; left: 50%; transform : translate(-50%, -50%); overflow: hidden; }
+.contents .box img:hover{transform: scale(1.2) translate(-40%, -40%); transition: all 0.3s ease out; }
+.contents .box>h1{color : #000; position: absolute; bottom: 20px; left: 20px;}
+.box1{background : #fff;}
+.box2{background-color : tan}
+.box3{background-color: antiquewhite}
+.box4{background-color: skyblue}
+.box5{background-color:cadetblue}
+.box6{background-color : coral}
+.box7{background-color : darkgoldenrod}
+.box8{background-color : lemonchiffon}
+
+
+.back{width : 400px; height: 300px; background: #fff; position: fixed; top : 50%; left: 50%; transform : translate(-50%, -50%); text-align: center; padding-top : 20px; display: none; border : 1px solid #9b923f; padding: 20px}
+.back h5{font-size: 20px}
+.back h1{margin-bottom : 20px;}
+.back p{font-size : 20px}
+.back .baro{position: absolute; bottom : 20px; width : 90%; font-size : 28px; border : 1px solid #9b923f; border-radius: 25px; padding : 2px}
+.back .close{position: absolute; top: 10px; right: 30px;font-size: 18px}
+
+
+@media(max-width : 768px){
+    .content{width : 100%}
+    .contents{width : 100%}
+    .contents .box{width : 100%; float: none}
+    
+    
+}
